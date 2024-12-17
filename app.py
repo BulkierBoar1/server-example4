@@ -10,7 +10,8 @@ import plotly.express as px
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/Dash-Course/makeup-shades/shades.csv')
 
 # Initialize the app
-app = Dash()
+app = Dash(__name__)
+server = app.sever
 
 # Grid
 
