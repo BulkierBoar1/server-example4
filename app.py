@@ -11,7 +11,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/Dash-
 
 # Initialize the app
 app = Dash(__name__)
-server = app.sever
+server = app.server
 
 # Grid
 
